@@ -15,6 +15,7 @@
   font-weight: 600;
   font-size: 20px;
   color: #ffffff;
+  border-radius: 5px;
 }
 
 main {
@@ -95,4 +96,75 @@ main {
   height: 11px;
   width: 16px;
   margin-right: 10px;
+}
+
+/* my plan section style */
+.my-plan {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.plan-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-box img {
+    width: 93px;
+    height: 93px;
+    margin-bottom: 24px;
+}
+
+.plan-box-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.plan-box-desc {
+    color: #737272;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* banner style */
+.banner {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png') no-repeat;
+    margin-top: 120px;
+    height: 235px;
+    background-size: contain;
+    background-position: 100%;
+}
+
+.ban-content {
+    padding: 40px;
+    padding-right: 250px;
+}
+
+.ban-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.btn-white {
+    height: 64px;
+  width: 160px;
+  color: #f15b22;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  background: #ffffff;
+  border-radius: 5px;
 }

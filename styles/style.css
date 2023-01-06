@@ -100,66 +100,67 @@ main {
 
 /* my plan section style */
 .my-plan {
-    margin-top: 130px;
-    text-align: center;
+  margin-top: 130px;
+  text-align: center;
 }
 
 .plan-title {
-    color: #151414;
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 40px;
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 40px;
 }
 
 .plan-container {
-    display: flex;
-    gap: 80px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
 }
 
 .plan-box img {
-    width: 93px;
-    height: 93px;
-    margin-bottom: 24px;
+  width: 93px;
+  height: 93px;
+  margin-bottom: 24px;
 }
 
 .plan-box-title {
-    color: #151414;
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 16px;
+  color: #151414;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 16px;
 }
 
 .plan-box-desc {
-    color: #737272;
-    font-weight: 400;
-    font-size: 18px;
+  color: #737272;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 /* banner style */
 .banner {
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png') no-repeat;
-    margin-top: 120px;
-    height: 235px;
-    background-size: contain;
-    background-position: 100%;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url("../images/watch.png") no-repeat;
+  margin-top: 120px;
+  height: 235px;
+  background-size: contain;
+  background-position: 100%;
 }
 
 .ban-content {
-    padding: 40px;
-    padding-right: 250px;
+  padding: 40px;
+  padding-right: 250px;
 }
 
 .ban-title {
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 15px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 15px;
 }
 
 .btn-white {
-    height: 64px;
+  height: 64px;
   width: 160px;
   color: #f15b22;
   border: none;
@@ -167,4 +168,103 @@ main {
   font-size: 20px;
   background: #ffffff;
   border-radius: 5px;
+}
+
+/* social service style */
+.social-service {
+  margin-top: 130px;
+  text-align: center;
+}
+
+.ss-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.ss-container {
+  display: flex;
+  gap: 50px;
+}
+
+.ss-container img {
+  width: 100%;
+}
+
+.ss-box {
+  text-align: left;
+}
+
+.box-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #151414;
+}
+
+.box-desc {
+    font-weight: 400;
+    font-size: 18px;
+    color: #444343;
+    margin: 20px 0px;
+}
+
+/* footer style */
+footer {
+  height: 250px;
+  /* width: 100%; */
+  background: #151414;
+  padding: 130px 200px;
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.ft-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.ft-desc {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.ft-email,
+.ft-phone {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+.ft-subs {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.ft-right input {
+  height: 30px;
+  width: 325px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 16px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.ft-right input[type="email"]::placeholder {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
 }
